@@ -9,13 +9,7 @@ function AddRow(item){
         row.append('td').text(data)
     })
 };
-// data.forEach((weatherReport) => {
-//     var row = tbody.append("tr");
-//     Object.entries(weatherReport).forEach(([key, value]) => {
-//       var cell = row.append("td");
-//       cell.text(value);
-//     });
-//   });
+
 var button = d3.select("#filter-btn");
 button.on("click", function() {
     tbody.html("");
@@ -30,13 +24,3 @@ button.on("click", function() {
     console.log(filteredData);
     filteredData.forEach(AddRow);
   });
-// button.on("click", function() {
-//   // Select the input element and get the raw HTML node
-//   var inputElement = d3.select("#datetime");
-//   // Get the value property of the input element
-//   var inputValue = inputElement.property("value");
-//   console.log(inputValue);
-//   console.log(tableData);
-//   var filteredData = tableData.filter(person => person.bloodType === inputValue);
-//   console.log(filteredData);
-// })
