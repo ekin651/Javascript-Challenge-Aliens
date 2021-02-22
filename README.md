@@ -9,6 +9,14 @@ There is just one tiny problem though... our collection is too large to search t
 I write code that will create a table dynamically based upon a [dataset we provide](StarterCode/static/js/data.js). I can only use pure JavaScript, HTML, and CSS, and D3.js on our web pages. They are the only coding languages which can be trusted.
 
 
+### Tools/ Techniques/ Technologies
+
+Lauguages: HTML-5 | CSS-3 | JavaScript (ES-6) | Markdown
+
+Web Developement Libraries: D3.js (DOM) | Bootstrap-4
+
+Applications: Visual Studio Code | Live Server (by R. Dey) | Instant Markdown (by D. Bankier) | Google Chrome ver. 84x
+
 ### Before Begin
 
 1. Create a new repository for this project called `javascript-challenge`.
